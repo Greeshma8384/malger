@@ -1394,6 +1394,24 @@ body {
   transform: translate(-50%, -50%);
 }
 
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  25% {
+    transform: translate(-50%, -50%) rotate(20deg);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  75% {
+    transform: translate(-50%, -50%) rotate(-20deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+
 .desktop .whatsapp {
   position: fixed;
   width: 46px;
@@ -1402,8 +1420,9 @@ body {
   left: 90%;
   object-fit: cover;
   transform: translate(-50%, -50%);
-  
+  animation: rotate .5s infinite;
 }
+
 
 
 .games_filter{

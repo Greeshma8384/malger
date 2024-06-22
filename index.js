@@ -5,6 +5,11 @@ document.addEventListener('DOMContentLoaded', function() {
       { "name": "Ludo", "imagePath": "./img/rm.jpeg" },
       
       { "name": "Carroms", "imagePath": "./img/2d1.jpeg" },
+      { "name": "Card Games", "imagePath": "./img/2d2.jpeg" },
+      { "name": "Strategy Game", "imagePath": "./img/2d4.jpeg" },
+      { "name": "Puzzle", "imagePath": "./img/2d6.jpeg" },
+      { "name": "Casual Games", "imagePath": "./img/2d7.jpeg" },
+   
       
 
      
@@ -30,11 +35,16 @@ document.addEventListener('DOMContentLoaded', function() {
       { "name": "VR to Retail", "imagePath": "./img/VR5.jpeg" },
     ],
     "REAL-MONEY": [{ "name": "Single Change", "imagePath": "./img/CA1.jpeg" },
-      { "name": "Triple Change", "imagePath": "./img/CA4.jpeg" },
-      { "name": "Single Change", "imagePath": "./img/rm.jpeg" }],
+      
+      { "name": "Andhar Bahar", "imagePath": "./img/andhar bahar.png" },
+      { "name": "Double Chance", "imagePath": "./img/double chance.png" },
+      { "name": "European Roulette", "imagePath": "./img/eur rolute.png" },
+      { "name": "Fun Roulette America", "imagePath": "./img/fun ameri.png" },
+      { "name": "Funtarget", "imagePath": "./img/funtarget.png" },
+      { "name": "Thripple chance", "imagePath": "./img/triple change copy.png" }],
     "CASINO": [{ "name": "Joker Card 12", "imagePath": "./img/CA2.jpeg" },
       { "name": "Horse rasing", "imagePath": "./img/CA3.jpeg" },
-      { "name": "joker Caerd 16", "imagePath": "./img/CA5.jpeg" },{ "name": "Casino", "imagePath": "./img/casino.jpeg" },
+      { "name": "joker Card 16", "imagePath": "./img/CA5.jpeg" },{ "name": "Casino", "imagePath": "./img/casino.jpeg" },
       { "name": "Ludo", "imagePath": "./img/rm.jpeg" }
     ],
 
