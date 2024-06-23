@@ -1599,3 +1599,25 @@ body {
     color: white;
     
 }
+
+
+
+
+@media (min-width: 1500px) and (max-width: 1655px) {
+  p {
+      font-size: 26px;
+  }
+
+  .discover-our {
+      position: absolute;
+      width: 479px;
+      top: 604px;
+      left: 100px;
+      font-family: "Poppins", Helvetica;
+      font-weight: 400;
+      color: #fafafa;
+      font-size: 26px; /* Make sure this matches the font-size for p tags */
+      letter-spacing: 0;
+      line-height: normal;
+  }
+}

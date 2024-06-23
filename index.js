@@ -109,3 +109,68 @@ document.addEventListener('DOMContentLoaded', function() {
     defaultButton.click(); // Simulate a click on the 2D Games button
   }
 });
+
+
+
+
+
+
+function applyMobileStyles() {
+  const width = window.innerWidth;
+  console.log("Current window width:", width);
+  
+  const ellipse = document.querySelector('.ellipse');
+  const whatsapp = document.querySelector('.whatsapp');
+
+  if (width > 1400 && width < 1700) {
+
+      let pTags = document.querySelectorAll('p');
+      let gaps = document.querySelectorAll('.gap');
+
+// Iterate over each element in the NodeList
+gaps.forEach(gap => {
+    gap.style.marginTop = '20px';// Apply marginTop style to each element
+});
+      pTags.forEach(pTag => {
+          pTag.style.fontSize = '21px'; // Example modification of fontSize
+      });
+  
+  }else{
+    let pTags = document.querySelectorAll('p');
+    let gaps = document.querySelectorAll('.gap');
+      pTags.forEach(pTag => {
+          pTag.style.fontSize = '16px'; // Example modification of fontSize
+      });
+
+      gaps.forEach(gap => {
+        gap.style.marginTop = '0px';// Apply marginTop style to each element
+    });
+  }
+
+  if (ellipse && whatsapp) {
+    if (width > 1400 && width < 1700) {
+      ellipse.style.width = '170px';
+      ellipse.style.height = '170px';
+      whatsapp.style.width = '150px';
+      whatsapp.style.height = '150px';
+      console.log("Mobile style applied");
+    } else {
+      // Apply default styles if needed for larger screens
+      ellipse.style.width = '70px';
+      ellipse.style.height = '70px';
+      whatsapp.style.width = '50px';
+      whatsapp.style.height = '50px';
+      console.log("Window style applied");
+    }
+  } else {
+    console.warn('Elements with class "ellipse" and/or "whatsapp" not found.');
+  }
+}
+
+
+
+// Apply styles on load
+document.addEventListener('DOMContentLoaded', applyMobileStyles);
+
+// Apply styles on window resize
+window.addEventListener('resize', applyMobileStyles);
