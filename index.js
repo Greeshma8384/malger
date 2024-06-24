@@ -151,8 +151,8 @@ gaps.forEach(gap => {
     if (width > 1400 && width < 1700) {
       ellipse.style.width = '170px';
       ellipse.style.height = '170px';
-      whatsapp.style.width = '150px';
-      whatsapp.style.height = '150px';
+      whatsapp.style.width = '140px';
+      whatsapp.style.height = '140px';
       console.log("Mobile style applied");
     } else {
       // Apply default styles if needed for larger screens
