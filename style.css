@@ -1419,6 +1419,8 @@ body {
   transform: translate(-50%, -50%);
   animation: rotate .5s infinite;
   transition: all 3.9s ease-in-out;
+
+  
 }
 
 
