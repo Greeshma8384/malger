@@ -122,7 +122,7 @@ function applyMobileStyles() {
   const ellipse = document.querySelector('.ellipse');
   const whatsapp = document.querySelector('.whatsapp');
 
-  if (width > 1400 && width < 1850) {
+  if (width > 1400 && width < 1700) {
 
       let pTags = document.querySelectorAll('p');
       let gaps = document.querySelectorAll('.gap');
@@ -148,7 +148,7 @@ gaps.forEach(gap => {
   }
 
   if (ellipse && whatsapp) {
-    if (width > 1400 && width < 1850) {
+    if (width > 1400 && width < 1700) {
       ellipse.style.width = '170px';
       ellipse.style.height = '170px';
       whatsapp.style.width = '140px';
