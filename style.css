@@ -1,6 +1,7 @@
 html{
   height: 4000px;
   max-width: 1900px;
+  width: 1900px;
 }
 body {
   margin: -100;
@@ -10,12 +11,14 @@ body {
   height: 4000px;
   max-width: 1900px;
   overflow: none;
+  width: 1900px;
   
   
 }
 .web{
   height: 4000px;
   max-width: 1900px;
+  width: 1900px;
   /* closure */
 }
 
