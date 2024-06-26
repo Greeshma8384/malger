@@ -151,7 +151,7 @@ gaps.forEach(gap => {
 
   if (ellipse && whatsapp) {
     console.log("test");
-    if (width > 1400 && width < 1900) {
+    if (width > 1400 && width < 2500) {
       ellipse.style.width = '170px';
       ellipse.style.height = '170px';
       whatsapp.style.width = '140px';
