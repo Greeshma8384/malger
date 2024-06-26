@@ -160,6 +160,7 @@ gaps.forEach(gap => {
       //changed
 
       console.log("Mobile style applied");
+      console.log("commit msg");
     } else {
       // Apply default styles if needed for larger screens
       ellipse.style.width = '70px';
