@@ -156,6 +156,8 @@ gaps.forEach(gap => {
       whatsapp.style.width = '140px';
       whatsapp.style.height = '140px';
 
+      //changed
+
       console.log("Mobile style applied");
     } else {
       // Apply default styles if needed for larger screens
