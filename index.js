@@ -122,7 +122,7 @@ function applyMobileStyles() {
   const ellipse = document.querySelector('.ellipse');
   const whatsapp = document.querySelector('.whatsapp');
 
-  if (width > 1400 && width < 1700) {
+  if (width > 1400 && width < 1900) {
 
       let pTags = document.querySelectorAll('p');
       let gaps = document.querySelectorAll('.gap');
@@ -138,6 +138,7 @@ gaps.forEach(gap => {
   }else{
     let pTags = document.querySelectorAll('p');
     let gaps = document.querySelectorAll('.gap');
+   
       pTags.forEach(pTag => {
           pTag.style.fontSize = '16px'; // Example modification of fontSize
       });
@@ -146,13 +147,15 @@ gaps.forEach(gap => {
         gap.style.marginTop = '0px';// Apply marginTop style to each element
     });
   }
+ 
 
   if (ellipse && whatsapp) {
-    if (width > 1400 && width < 1700) {
+    if (width > 1400 && width < 1900) {
       ellipse.style.width = '170px';
       ellipse.style.height = '170px';
       whatsapp.style.width = '140px';
       whatsapp.style.height = '140px';
+
       console.log("Mobile style applied");
     } else {
       // Apply default styles if needed for larger screens
