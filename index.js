@@ -147,9 +147,10 @@ gaps.forEach(gap => {
         gap.style.marginTop = '0px';// Apply marginTop style to each element
     });
   }
- 
+
 
   if (ellipse && whatsapp) {
+    console.log("test");
     if (width > 1400 && width < 1900) {
       ellipse.style.width = '170px';
       ellipse.style.height = '170px';
