@@ -2,6 +2,7 @@ html{
   height: 4000px;
   max-width: 1900px;
   width: 1900px;
+  overscroll-behavior-block:none;
 }
 body {
   margin: -100;

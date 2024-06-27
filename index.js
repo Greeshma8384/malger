@@ -11,11 +11,6 @@ document.addEventListener('DOMContentLoaded', function() {
       { "name": "Casual Games", "imagePath": "./img/2d7.jpeg" },
    
       
-
-     
-
-  
-      
     ],
     "3D": [{ "name": "War Prime", "imagePath": "./img/3d1.jpeg" },{ "name": "Word", "imagePath": "./img/3d2.jpeg" }
       ,{ "name": "Moto Race", "imagePath": "./img/3d3.jpeg" },
@@ -121,11 +116,22 @@ function applyMobileStyles() {
   
   const ellipse = document.querySelector('.ellipse');
   const whatsapp = document.querySelector('.whatsapp');
+  const rec7 = document.querySelector('.rectangle-7');
+  const rec8 = document.querySelector('.rectangle-8');
+  const grp15 = document.querySelector('.group-15');
+  const grp12 = document.querySelector('.group-12');
 
   if (width > 1400 && width < 1900) {
 
       let pTags = document.querySelectorAll('p');
       let gaps = document.querySelectorAll('.gap');
+      
+
+      rec7.style.marginLeft = "200px";
+      rec8.style.width = "1500px";
+    rec8.style.marginLeft = "100px";
+    grp15.style.marginLeft = "100px";
+    grp12.style.marginLeft = "100px";
 
 // Iterate over each element in the NodeList
 gaps.forEach(gap => {
@@ -138,6 +144,11 @@ gaps.forEach(gap => {
   }else{
     let pTags = document.querySelectorAll('p');
     let gaps = document.querySelectorAll('.gap');
+    rec7.style.marginLeft = "0px";
+    rec8.style.width = "1900px";
+    rec8.style.marginLeft = "0px";
+    grp15.style.marginLeft = "0px";
+    grp12.style.marginLeft = "0px";
    
       pTags.forEach(pTag => {
           pTag.style.fontSize = '16px'; // Example modification of fontSize
