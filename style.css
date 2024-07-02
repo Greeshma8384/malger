@@ -311,6 +311,7 @@ bottom: 80px;
   .scrollable-container {
     max-height: 700px; /* Set your desired height */
     overflow-x: hidden;
+    margin-left: 80px;
     
   }
   .scrollable-container::-webkit-scrollbar {
@@ -334,6 +335,7 @@ bottom: 80px;
   .games-container {
     height: 700px; /* Set a fixed height for the container */
     overflow-x: hidden; /* Enable vertical scrolling */
+   
   }
 
 .games-sec{
@@ -342,10 +344,10 @@ bottom: 80px;
   padding-bottom: 50px;
 }
 .games-container {
-  margin-left: 70px;
+  margin-left: 80px;
   overflow-x: hidden; /* Enable vertical scrolling */
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 boxes per row */ /* Adjust the gap between boxes as needed */
+  grid-template-columns: repeat(3, 0fr); /* 3 boxes per row */ /* Adjust the gap between boxes as needed */
 }
 .games-container {
 
@@ -636,12 +638,12 @@ margin-top: 100px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 36px;
+    font-size: 26px;
     margin: 4px 2px;
     cursor: pointer;
     padding: 0px 32px;
     clip-path: polygon(0 20%, 100% 0, 100% 80%, 0% 100%);
-    transform: rotate(8.9deg); /* Rotate 4.5 degrees */
+    transform: rotate(4.3deg); /* Rotate 4.5 degrees */
     margin-left: 80px;
     transition: background .5s ease; /* Smooth transition for background */
   }
@@ -649,20 +651,28 @@ margin-top: 100px;
   .contact-us-btn:hover {
     background: linear-gradient(180deg, rgb(233, 48, 11) 0%, rgb(231, 215, 1) 100%);
   }
+
+
+  .scrollable-container {
+    max-height: 700px; /* Set your desired height */
+    overflow-x: hidden;
+
+    
+  }
   
   
   .contact-us{
     font-family: "Poppins", Helvetica;
     font-weight: 900;
-    font-size: 20px;
+    font-size: 30px;
     letter-spacing: 0;
     line-height: normal;
     color: white;
-    transform: rotate(-8.5deg); 
+    transform: rotate(-4.5deg); 
   }
   .btn-container{
     display: flex;
-    height: 150px;
+    height: 100px;
     
   }
 
@@ -886,7 +896,19 @@ text-align: left;
 
             .submit{
               height: 110px;
-              transform: rotate(7.0deg); 
+              transform: rotate(5.0deg); 
+            }
+
+            .games-container {
+          
+              overflow-x: hidden; /* Enable vertical scrolling */
+              display: grid;
+              grid-template-columns: repeat(3, 1fr); /* 3 boxes per row */ /* Adjust the gap between boxes as needed */
+            }
+            .games-container {
+              height: 700px; /* Set a fixed height for the container */
+              overflow-x: hidden; /* Enable vertical scrolling */
+             margin-left: 0px;
             }
 
 
