@@ -436,7 +436,8 @@ bottom: 80px;
   font-weight: bold;
   align-items: center;
   text-align: center;
-  background-color: transparent;
+  /* background-color: transparent; */
+  background: linear-gradient(90deg, #edbf07, #f80b37);
   margin-top: 50px;
   
 }

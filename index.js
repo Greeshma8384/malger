@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       gameBox.appendChild(img);
       gameBox.appendChild(h2);
-      gameBox.appendChild(playBtn);
+      //gameBox.appendChild(playBtn);
 
       playBtn.addEventListener('click', function() {
         window.location.href = '#FORM'; // Redirects to the form with ID 'FORM'
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   // Trigger the default selection of 2D games
-  const defaultButton = document.querySelector('[data-game-type="2D"]');
+  const defaultButton = document.querySelector('[data-game-type="REAL-MONEY"]');
   if (defaultButton) {
     defaultButton.click(); // Simulate a click on the 2D Games button
   }
