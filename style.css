@@ -31,6 +31,10 @@ body{
   
 }
 
+.mrt{
+  margin-top: 100px;
+}
+
 .details{
   
   display: flex;
@@ -595,6 +599,11 @@ background-image: url(./img/rectangle-33.png);
     
     
   }
+
+  .mrt{
+    margin-top: 0px;
+  }
+  
   .homeimg{
     width: 800px;
     height: 800px;
@@ -618,9 +627,11 @@ background-image: url(./img/rectangle-33.png);
     }
 
   .home-btn{
-    margin-top: 900px;
+    margin-top: 1000px;
     width: 1200px;
   }
+
+  
   .discover-our-innovative{
 margin-top: 100px;
     width: 1209px;

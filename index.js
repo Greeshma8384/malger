@@ -36,7 +36,11 @@ document.addEventListener('DOMContentLoaded', function() {
       { "name": "European Roulette", "imagePath": "./img/eur rolute.png" },
       { "name": "Fun Roulette America", "imagePath": "./img/fun ameri.png" },
       { "name": "Funtarget", "imagePath": "./img/funtarget.png" },
-      { "name": "Thripple chance", "imagePath": "./img/triple change copy.png" }],
+      { "name": "Thripple chance", "imagePath": "./img/triple change copy.png" },
+      { "name": "Horse rasing", "imagePath": "./img/CA3.jpeg" },
+      { "name": "joker Card 16", "imagePath": "./img/CA5.jpeg" },{ "name": "Casino", "imagePath": "./img/casino.jpeg" },
+      { "name": "Ludo", "imagePath": "./img/rm.jpeg" },{ "name": "Joker Card 12", "imagePath": "./img/CA2.jpeg" }
+    ],
     "CASINO": [{ "name": "Joker Card 12", "imagePath": "./img/CA2.jpeg" },
       { "name": "Horse rasing", "imagePath": "./img/CA3.jpeg" },
       { "name": "joker Card 16", "imagePath": "./img/CA5.jpeg" },{ "name": "Casino", "imagePath": "./img/casino.jpeg" },
